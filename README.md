@@ -16,7 +16,7 @@ GUIDE TO KERAS FUNCTIONAL API:->https://keras.io/getting-started/functional-api-
 "All models are callable, just like layers
 With the functional API, it is easy to reuse trained models: you can treat any model as if it were a layer, by calling it on a tensor. Note that by calling a model you aren't just reusing the architecture of the model, you are also reusing its weights."
 
-Predicting the probablilities of a dataset of encrypted Stock Prices(We have no idea what the features are.The goal will be to build a model that can differentiate whether stock prices are go to rise or fall to buy or sell shares in a hedgefund. 
+Predicting the probablilities of a dataset of encrypted Stock Prices(We have no idea what the features are).The goal will be to build a model that can differentiate whether stock prices are go to rise or fall to buy or sell shares in a hedgefund. 
 Achieving this goal will require to  build a model that Scales prices into two vectors, concatenates the vectors and then adds a logistic regression, this outputs a probability that the stock prices are low or high.
 
 
